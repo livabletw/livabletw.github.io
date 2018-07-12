@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/common_sp.css" rel="stylesheet" type="text/css">
+<link href="lightGallery/css/lightgallery.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WSSK3NT"></script>
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+<script src="js/global.js"></script>
+<script src="lightGallery/js/lightgallery-all.min.js"></script>
+<script>
+$(function(){
+    $('.thumb li').click(function(){
+        var class_name = $(this).attr("class"); //クリックしたサムネイルのclass名を取得
+        var num = class_name.slice(5); //class名の末尾の数字を取得
+        $('.main li').hide(); //メインの画像を全て隠す
+        $('.item' + num).fadeIn(); //クリックしたサムネイルに対応するメイン画像を表示
+    });
+});
+</script>
+
+<script>
+$(function(){
+    $('.thumb_warp02 li').click(function(){
+        var class_name = $(this).attr("class"); //クリックしたサムネイルのclass名を取得
+        var num = class_name.slice(6); //class名の末尾の数字を取得
+        $('.main02 li').hide(); //メインの画像を全て隠す
+        $('.item0' + num).fadeIn(); //クリックしたサムネイルに対応するメイン画像を表示
+    });
+});
+
+
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSSK3NT');</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121616772-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121616772-1');
+</script>
+</head>
+<body style="zoom:1;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSSK3NT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div id="wrap" class="wrap">
+        <div class="web_container">
+<div class="header">
+	<div>
+        <p class="tel"><a href="tel:0227139109"><img src="images/tel.jpg"></a></p>
+		<p class="line"></p>
+		<p class="reserve"><a href="#cv"><img src="images/reserve.jpg"></a></p>
+	</div>
+</div>
+
+<div class="section01">
+<img src="images/mijas_01_sp.jpg">
+<img src="images/mijas_02_sp.jpg">
+<img src="images/mijas_03_sp.jpg">
+<img src="images/mijas_04_sp.jpg">
+<img src="images/mijas_05_sp.jpg">
+<img src="images/mijas_06_sp.jpg">
+<img src="images/mijas_07_sp.jpg">
+</div>
+<div class="section02">
+<img src="images/mijas_08_sp.jpg">
+
+<div class="real_house">
+	<div class="content">
+		<div class="s2_head">学芸大学</div>
+		<ul class="main">
+			<li class="item1"><img src="images/sec02/gaku_01.jpg" alt="" /></li>
+			<li class="item2"><img src="images/sec02/gaku_02.jpg" alt="" /></li>
+			<li class="item3"><img src="images/sec02/gaku_03.jpg" alt="" /></li>
+			<li class="item4"><img src="images/sec02/gaku_04.jpg" alt="" /></li>
+		</ul>
+		<ul class="thumb">
+			<li class="thumb1"><img src="images/sec02/gaku_01.jpg" alt="" /></li>
+			<li class="thumb2"><img src="images/sec02/gaku_02.jpg" alt="" /></li>
+			<li class="thumb3"><img src="images/sec02/gaku_03.jpg" alt="" /></li>
+			<li class="thumb4"><img src="images/sec02/gaku_04.jpg" alt="" /></li>
+		</ul>
+		<p class="real_txt"><img src="images/real_txt01.jpg" alt=""></p>	
+	</div>
+
+	<div class="content02">
+		<div class="s2_head02">梅ヶ丘</div>
+		<ul class="main02">
+			<li class="item01"><img src="images/sec02/ume_01.jpg" alt="" /></li>
+			<li class="item02"><img src="images/sec02/ume_02.jpg" alt="" /></li>
+			<li class="item03"><img src="images/sec02/ume_03.jpg" alt="" /></li>
+			<li class="item04"><img src="images/sec02/ume_04.jpg" alt="" /></li>
+		</ul>
+		<ul class="thumb_warp02">
+			<li class="thumb01"><img src="images/sec02/ume_01.jpg" alt="" /></li>
+			<li class="thumb02"><img src="images/sec02/ume_02.jpg" alt="" /></li>
+			<li class="thumb03"><img src="images/sec02/ume_03.jpg" alt="" /></li>
+			<li class="thumb04"><img src="images/sec02/ume_04.jpg" alt="" /></li>
+		</ul>
+		<p class="real_txt"><img src="images/real_txt02.jpg" alt=""></p>	
+	</div>
+</div>
+
+<div class="section03">
+<img src="images/mijas_09_sp.jpg">
+</div>
+
+</div>
+
+<div class="section04">
+<img src="images/mijas_10_sp.jpg" width="100%" height="auto">
+</div>
+
+            <div class="section04">
+                <div class="photoGroup">
+                    <!-- s1 -->
+                    <div class="photoContainer photo_first s4_item1">
+                        <div class="s4_top">
+                            <div class="s4_head">中村橋</div>
+                            <div class="s4_foot"><span class="s4_text">東京都練馬区貫井２</span></div>
+                            <div class="s4_pic s4_pic1"><img src="images/item4/img_1.jpg" alt=""></div>
+                        </div>
+                        <div class="s4_down">
+                            <div class="s4_thumb_l s4_item1_thumb_l"></div>
+                            <div class="s4_thumb_r s4_item1_thumb_r"></div>
+                            <ul class="s4_thumbContainer tc1">
+                               <li class="s4_thumb s4_thumb1 first" data-src="images/item4/item_1_1.jpg"><img src="images/item4/item_1_1.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb2" data-src="images/item4/item_1_2.jpg"><img src="images/item4/item_1_2.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb3" data-src="images/item4/item_1_3.jpg"><img src="images/item4/item_1_3.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb4" data-src="images/item4/item_1_4.jpg"><img src="images/item4/item_1_4.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb5" data-src="images/item4/item_1_5.jpg"><img src="images/item4/item_1_5.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb6" data-src="images/item4/item_1_6.jpg"><img src="images/item4/item_1_6.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb7 last" data-src="images/item4/item_1_7.jpg"><img src="images/item4/item_1_7.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- s2 -->
+                    <div class="photoContainer s4_item2">
+                        <div class="s4_top">
+                            <div class="s4_head">中馬込</div>
+                            <div class="s4_foot"><span class="s4_text">東京都大田区中馬込3丁目20-3</span></div>
+                            <div class="s4_pic s4_pic2"><img src="images/item2/img_1.jpg" alt=""></div>
+                        </div>
+                        <div class="s4_down">
+                            <div class="s4_thumb_l s4_item2_thumb_l"></div>
+                            <div class="s4_thumb_r s4_item2_thumb_r"></div>
+                            <ul class="s4_thumbContainer tc2">
+                                <li class="s4_thumb s4_thumb1 first" data-src="images/item2/item_1_1.jpg"><img src="images/item2/item_1_1.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb2" data-src="images/item2/item_1_2.jpg"><img src="images/item2/item_1_2.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb3" data-src="images/item2/item_1_3.jpg"><img src="images/item2/item_1_3.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb4" data-src="images/item2/item_1_4.jpg"><img src="images/item2/item_1_4.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb5" data-src="images/item2/item_1_5.jpg"><img src="images/item2/item_1_5.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb6" data-src="images/item2/item_1_6.jpg"><img src="images/item2/item_1_6.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb7 last" data-src="images/item2/item_1_7.jpg"><img src="images/item2/item_1_7.jpg" alt=""></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- s4 -->
+                    <div class="photoContainer s4_item3">
+                        <div class="s4_top">
+                            <div class="s4_head">吉祥寺本町</div>
+                            <div class="s4_foot"><span class="s4_text">東京都武蔵野市吉祥寺本町4-9-12</span></div>
+                            <div class="s4_pic s4_pic3"><img src="images/item3/img_1.jpg" alt=""></div>
+                        </div>
+                        <div class="s4_down">
+                            <div class="s4_thumb_l s4_item3_thumb_l"></div>
+                            <div class="s4_thumb_r s4_item3_thumb_r"></div>
+                            <ul class="s4_thumbContainer tc3">
+                               <li class="s4_thumb s4_thumb1 first" data-src="images/item3/item_1_1.jpg"><img src="images/item3/item_1_1.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb2" data-src="images/item3/item_1_2.jpg"><img src="images/item3/item_1_2.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb3" data-src="images/item3/item_1_3.jpg"><img src="images/item3/item_1_3.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb4" data-src="images/item3/item_1_4.jpg"><img src="images/item3/item_1_4.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb5" data-src="images/item3/item_1_5.jpg"><img src="images/item3/item_1_5.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb6" data-src="images/item3/item_1_6.jpg"><img src="images/item3/item_1_6.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb7 last" data-src="images/item3/item_1_7.jpg"><img src="img/item3/item_1_7.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- s4 -->
+                    <div class="photoContainer photo_last s4_item4">
+                        <div class="s4_top">
+                            <div class="s4_head">東新宿</div>
+                            <div class="s4_foot"><span class="s4_text">東京都新宿区大久保2丁目158番外</span></div>
+                            <div class="s4_pic s4_pic4"><img src="images/item1/img_1.jpg" alt=""></div>
+                        </div>
+                        <div class="s4_down">
+                            <div class="s4_thumb_l s4_item4_thumb_l"></div>
+                            <div class="s4_thumb_r s4_item4_thumb_r"></div>
+                            <ul class="s4_thumbContainer tc4">
+                                <li class="s4_thumb s4_thumb1 first" data-src="images/item1/item_1_1.jpg"><img src="images/item1/item_1_1.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb2" data-src="images/item1/item_1_2.jpg"><img src="images/item1/item_1_2.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb3" data-src="images/item1/item_1_3.jpg"><img src="images/item1/item_1_3.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb4" data-src="images/item1/item_1_4.jpg"><img src="images/item1/item_1_4.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb5" data-src="images/item1/item_1_5.jpg"><img src="images/item1/item_1_5.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb6" data-src="images/item1/item_1_6.jpg"><img src="images/item1/item_1_6.jpg" alt=""></li>
+                                <li class="s4_thumb s4_thumb7 last" data-src="images/item1/item_1_7.jpg"><img src="images/item1/item_1_7.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="section05" style="margin-bottom: 30px">
+<img src="images/mijas_11_sp.jpg">
+<img src="images/mijas_12_sp.jpg">
+</div>
+
+<div id="cv">
+<iframe src="http://malaysia-real-estate.com/?page_id=801" width="100%" height="600px" scrolling="no"></iframe>
+</div>
+<div style="font-family: Microsoft JhengHei; color: #0a2551;width: 100%;margin: 0 auto;line-height: 35px;font-size: 20px;">
+    <ul>
+        <p style="font-weight: bold;margin-bottom: 10px">【物件相關註釋】</p>
+        <li style="margin-bottom:25px">
+            &nbsp;&nbsp;&nbsp;■ 含稅，表示該物件的價格已含消費稅。
+        </li>
+        <li style="margin-bottom: 25px">
+            &nbsp;&nbsp;&nbsp;■ 「滿租時年預計收入」，為目前契約<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中、募集中的物件租金或者該物件所<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;擁有的房間滿租時之情況下，以一個<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月的租金收入x12個月的租金計算。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此為公令課稅等其他必要支出前的計<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;算金額，不能保證實際的租金收入。
+        </li>
+        <li style="margin-bottom: 25px">
+            &nbsp;&nbsp;&nbsp;■   「滿租時表面投報率」，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;「滿租時年預計收入」÷「物件價格」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;計算的投報率，不能保證實際利率。
+        </li>
+        <li style="margin-bottom: 40px">
+            &nbsp;&nbsp;&nbsp;■ 立約時的仲介費用（消費稅等）將<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另行計算。
+        </li>
+    </ul>
+    <ul>
+        <p style="font-weight: bold;margin-bottom: 10px">【表格內容註釋】</p>
+        <li style="margin-bottom: 50px;padding-right:5px ">
+            &nbsp;&nbsp;&nbsp;■ 刊登的物件照片內，若涉及客戶<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;隱私權的看板等內容將刪減處理。
+        </li>
+    </ul>
+    <p style="text-align: right;margin-bottom: 50px;padding-right:5px">東急房地產股份有限公司<br>國考不動產經紀人 經理呂學唐<br>(103)桃市經證字第01398號
+</p>
+<p style="margin-bottom: 10px;font-size: 15px">※2018年7月1日當下，該物件有已成交或立約的可能性。物件的情報與情況以實際狀況為主，敬請諒解。</p>
+<p style="margin-bottom: 10px;font-size: 15px">※關於租賃中的物件，帶租約的物件以現有租約過繼，若需詳細內容請洽東急房地產。</p>
+<p style="margin-bottom: 10px;font-size: 15px">※國外不動產投資，具有風險性，請投資人詳閱行銷文件並審慎考量後再行交易。</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
